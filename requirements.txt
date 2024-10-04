@@ -1,4 +1,3 @@
 Flask
 gradio
 keras
-tensorflow  # Or any specific libraries you need for Gemma
