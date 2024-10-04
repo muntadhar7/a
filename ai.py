@@ -1,9 +1,5 @@
-import keras
-import keras_nlp
-import numpy as np
+import requests
 
-gemma_lm = keras_nlp.models.GemmaCausalLM.from_preset("gemma_1.1_instruct_2b_en")
-gemma_lm.generate("Keras is a", max_length=30)
+response = requests.get('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAm2jX10ExlwoIG2AQXa5BAk5aopIyh2is')
 
-# Generate with batched prompts.
-output = gemma_lm.generate(["Keras is a", "I want to say"], max_length=30)
+output = response.json()
