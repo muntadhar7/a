@@ -1,5 +1,6 @@
 Flask
 gradio
 keras
+keras_nlp
 gunicorn
 tensorflow-cpu
