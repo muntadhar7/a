@@ -1,5 +1,8 @@
-import requests
+import google.generativeai as genai
+import os
 
-response = requests.get('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyAm2jX10ExlwoIG2AQXa5BAk5aopIyh2is')
+genai.configure(api_key="AIzaSyB0bsLcJscEib6MmcJFbiKpRabbmFChRkI")
 
-output = response.json()
+model = genai.GenerativeModel("gemini-1.5-flash")
+response = model.generate_content("Write a story about a magic backpack.")
+print(response.text)
