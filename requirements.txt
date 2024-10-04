@@ -4,3 +4,4 @@ gunicorn
 google-generativeai
 requests~=2.32.3
 protobuf~=5.28.2
+WTForms~=3.0.1
