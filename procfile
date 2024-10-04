@@ -1,0 +1,1 @@
+web: python main.py  # Change 'main.py' to your entry file
