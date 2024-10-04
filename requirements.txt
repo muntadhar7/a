@@ -2,3 +2,4 @@ Flask
 gradio
 keras
 gunicorn
+tensorflow-cpu
