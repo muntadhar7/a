@@ -1,6 +1,6 @@
 Flask~=2.3.2
 gradio
 gunicorn
-
+google-generative-ai
 requests~=2.32.3
 protobuf~=5.28.2
