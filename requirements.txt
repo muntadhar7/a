@@ -6,3 +6,4 @@ requests~=2.32.3
 protobuf~=5.28.2
 WTForms~=3.0.1
 flask_bootstrap
+flask_wtf
